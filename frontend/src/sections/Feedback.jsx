@@ -1,19 +1,3 @@
-// import { Quote, Star } from 'lucide-react';
-// import { useEffect, useState } from 'react';
-// import SectionHeading from '../components/SectionHeading';
-// import StatusMessage from '../components/StatusMessage';
-// import { api } from '../utils/api';
-
-// const initial = { name: '', role: '', rating: '5', message: '' };
-// export default function Feedback() {
-//     const [items, setItems] = useState([]); const [form, setForm] = useState(initial); const [status, setStatus] = useState(null); const [loading, setLoading] = useState(false);
-//     useEffect(() => { api.getApprovedFeedback().then(d => setItems(d.feedback || [])).catch(() => setItems([])); }, []);
-//     const change = e => setForm({ ...form, [e.target.name]: e.target.value });
-//     const submit = async e => { e.preventDefault(); setLoading(true); setStatus(null); try { await api.submitFeedback({ ...form, rating: Number(form.rating) }); setForm(initial); setStatus({ type: 'success', message: 'Thank you for your feedback. It has been submitted for review.' }); } catch (err) { setStatus({ type: 'error', message: err.message }); } finally { setLoading(false) } };
-//     return <section id="feedback"><div className="section-shell"><SectionHeading eyebrow="Feedback" title="Share a review or read approved feedback." copy="New submissions remain private until they are approved. Visitors receive an on-screen confirmation only; no automated email is sent to them." /><div className="mt-10 grid gap-6 lg:grid-cols-[1fr_.9fr]"><div className="grid gap-4">{items.length ? items.map(f => <article key={f.id} className="card reveal is-visible"><Quote className="text-emerald-600" size={20} /><p className="mt-4 leading-7 text-slate-700 dark:text-slate-200">“{f.message}”</p><div className="mt-5 flex items-end justify-between gap-3"><div><p className="font-black">{f.name}</p><p className="text-sm text-slate-500">{f.role || 'Visitor'}</p></div><div className="flex text-amber-500">{Array.from({ length: f.rating }, (_, i) => <Star key={i} size={16} fill="currentColor" />)}</div></div></article>) : <div className="card reveal "><p className="text-sm leading-6 text-slate-600 dark:text-slate-300">Approved reviews will appear here after moderation.</p></div>}</div><form onSubmit={submit} className="card h-fit"><h3 className="text-xl font-black">Leave feedback</h3><div className="mt-5 grid gap-4"><input className="form-input" name="name" value={form.name} onChange={change} placeholder="Your name" required maxLength="100" /><input className="form-input" name="role" value={form.role} onChange={change} placeholder="Role or organization (optional)" maxLength="150" /><select className="form-input" name="rating" value={form.rating} onChange={change}>{[5, 4, 3, 2, 1].map(v => <option value={v} key={v}>{v} star{v > 1 ? 's' : ''}</option>)}</select><textarea className="form-input min-h-32 resize-y" name="message" value={form.message} onChange={change} placeholder="Write your feedback" required maxLength="1000" /><button disabled={loading} className="btn-primary disabled:cursor-not-allowed disabled:opacity-60">{loading ? 'Submitting...' : 'Submit Feedback'}</button></div><StatusMessage status={status} /></form></div></div></section>;
-// }
-
-
 import {
     ChevronLeft,
     ChevronRight,

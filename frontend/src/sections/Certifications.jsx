@@ -1,11 +1,3 @@
-// import { Award } from 'lucide-react';
-// import SectionHeading from '../components/SectionHeading';
-// import { certifications } from '../data/portfolio';
-
-// export default function Certifications() { return <section id="certifications" className="section-padding"><div className="section-shell"><SectionHeading eyebrow="Certifications" title="Continuous learning beyond the classroom." /><div className="mt-10 grid gap-5 md:grid-cols-2">{certifications.map(c => <article key={c.title} className="card card-hover reveal"><Award className="text-emerald-600" /><p className="mt-5 text-xs font-bold uppercase tracking-[.18em] text-emerald-600">{c.issuer}</p><h3 className="mt-2 text-xl font-black">{c.title}</h3><p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">{c.description}</p><span className="mt-4 inline-block rounded-full bg-slate-100 px-3 py-1 text-xs font-bold dark:bg-slate-800">{c.status}</span></article>)}</div></div></section> }
-
-
-
 import {
   Award,
   ExternalLink,
@@ -198,22 +190,6 @@ export default function Certifications() {
                 </button>
               </div>
             </div>
-
-            {/* <div className="h-[72vh] overflow-auto bg-slate-900 p-4">
-              {selectedCertificate.fileType === 'pdf' ? (
-                <iframe
-                  src={selectedCertificate.file}
-                  title={`${selectedCertificate.title} PDF`}
-                  className="h-full w-full rounded-xl bg-white"
-                />
-              ) : (
-                <img
-                  src={selectedCertificate.file}
-                  alt={`${selectedCertificate.title} certificate`}
-                  className="mx-auto max-h-full rounded-xl object-contain"
-                />
-              )}
-            </div> */}
 
             <div className="flex max-h-[76vh] min-h-[420px] items-center justify-center overflow-auto bg-slate-900 p-4 sm:p-6">
   <img

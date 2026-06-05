@@ -1,8 +1,3 @@
-// import { ArrowUp, Github, Linkedin, Mail } from 'lucide-react';
-// export default function Footer(){return <footer className="border-t border-slate-800 bg-slate-950 py-7 text-slate-300"><div className="section-shell flex flex-col items-center justify-between gap-4 sm:flex-row"><p className="text-sm">© {new Date().getFullYear()} Akish Anil Pandey. All rights reserved.</p><div className="flex items-center gap-3"><a href="https://github.com/akish99" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-white"><Github size={18}/></a><a href="https://linkedin.com/in/akish-pandey-34a381339" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={18}/></a><a href="mailto:akishpandey2006@gmail.com" aria-label="Email" className="hover:text-white"><Mail size={18}/></a><a href="#home" aria-label="Back to top" className="ml-2 rounded-full border border-slate-700 p-2 hover:border-emerald-500 hover:text-white"><ArrowUp size={16}/></a></div></div></footer>}
-
-
-
 import {
   ArrowUp,
   Github,

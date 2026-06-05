@@ -51,7 +51,4 @@ export const education = [
   { period: 'March 2022', title: 'Secondary School Certificate (SSC)', place: 'Maharashtra State Board', metric: '86%' },
 ];
 
-// export const certifications = [
-//   { title: 'Full Stack Web Development & Java with DSA', issuer: 'Apna College', status: 'Currently Pursuing', description: 'Focused on frontend, backend, web technologies and data structures and algorithms.' },
-//   { title: 'Python Certification', issuer: 'Spoken Tutorial, IIT Bombay', status: 'Completed', description: 'Covered core Python concepts, data structures and object-oriented programming.' },
-// ];
+

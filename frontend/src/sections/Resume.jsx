@@ -1,5 +1,0 @@
-// import { Download, FileText } from 'lucide-react';
-// import SectionHeading from '../components/SectionHeading';
-
-// export default function Resume() { return <section className="section-padding bg-white/70 dark:bg-slate-900/40"><div className="section-shell"><SectionHeading eyebrow="Resume" title="Preview or download my resume." copy="The embedded viewer makes it easy to scan my profile without leaving the website." /><div className="card reveal mt-10 overflow-hidden p-3 sm:p-5"><div className="mb-4 flex flex-wrap items-center justify-between gap-3"><div className="flex items-center gap-2 font-bold"><FileText className="text-emerald-600" size={19}/> Akish Anil Pandey — Resume</div><a href="/assets/resume/Akish-Anil-Pandey-Resume.pdf" download className="btn-primary px-4 py-2 text-xs"><Download size={15}/> Download PDF</a></div><iframe title="Resume preview" src="/assets/resume/Akish-Anil-Pandey-Resume.pdf" className="h-[640px] w-full rounded-2xl border border-slate-200 dark:border-slate-800" /></div></div></section> }
-
