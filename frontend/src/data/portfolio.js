@@ -3,6 +3,7 @@ export const navLinks = [
   ['About', 'about'],
   ['Skills', 'skills'],
   ['Projects', 'projects'],
+  ['Experience', 'experience'],
   ['Education', 'education'],
   ['Certifications', 'certifications'],
   ['Feedback', 'feedback'],
@@ -42,6 +43,17 @@ export const projects = [
     github: null,
     image: '/assets/images/rental-platform.png',
   },
+];
+
+export const experience = [
+  {
+    role: 'MERN Stack Development Intern',
+    company: 'Vicharanashala, Lab for Education Design – IIT Ropar & ANNAM.AI',
+    period: 'February 2026 – May 2026',
+    description: 'Successfully completed a comprehensive full-stack development internship under the guidance of Prof. Sudarshan Iyengar and Dr. Pushpendra P. Singh. Leveraged the MERN stack on an AI-enabled learning platform to build, optimize, and deploy web applications.',
+    offerLetter: '/assets/experience/offer-letter.pdf', // Ensure the filename matches your actual PDF
+    certificate: '/assets/experience/completion-certificate.pdf' // Ensure the filename matches your actual PDF
+  }
 ];
 
 export const education = [
