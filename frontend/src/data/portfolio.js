@@ -51,8 +51,8 @@ export const experience = [
     company: 'Vicharanashala, Lab for Education Design – IIT Ropar & ANNAM.AI',
     period: 'February 2026 – May 2026',
     description: 'Successfully completed a comprehensive full-stack development internship under the guidance of Prof. Sudarshan Iyengar and Dr. Pushpendra P. Singh. Leveraged the MERN stack on an AI-enabled learning platform to build, optimize, and deploy web applications.',
-    offerLetter: '/assets/experience/offer-letter.pdf', // Ensure the filename matches your actual PDF
-    certificate: '/assets/experience/completion-certificate.pdf' // Ensure the filename matches your actual PDF
+    offerLetter: '/assets/experience/offer-letter.pdf', 
+    certificate: '/assets/experience/completion-certificate.pdf' 
   }
 ];
 
