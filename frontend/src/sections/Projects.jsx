@@ -71,6 +71,28 @@ export default function Projects() {
                     </span>
                   )}
                 </div>
+
+                <div className="mt-auto pt-6">
+                  {project.liveLink ? (
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn-primary inline-flex px-4 py-2 text-xs"
+                    >
+                      <Github size={15} />
+                      Go Live
+                    </a>
+                  ) : (
+                    <span
+                      className="inline-flex cursor-not-allowed items-center gap-2 rounded-full border border-slate-300 px-4 py-2 text-xs font-bold text-slate-400 dark:border-slate-700 dark:text-slate-500"
+                      title="Will be deployed soon"
+                    >
+                      <Github size={15} />
+                      Live Link Coming Soon
+                    </span>
+                  )}
+                </div>
               </div>
             </article>
           ))}

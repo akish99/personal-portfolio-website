@@ -24,16 +24,18 @@ export const projects = [
     description: 'A Zerodha-inspired trading dashboard with secure authentication, REST APIs, charts and a modular backend architecture.',
     highlights: ['JWT authentication', 'Axios API integration', 'Chart.js visualizations', 'MVC backend'],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Chart.js'],
-    github: 'https://github.com/akish99/Zerodha-Project.git',
+    github: 'https://github.com/akish99/Zerodha-Update.git',
     image: '/assets/images/trading-platform.png',
+    liveLink: "https://zerodha-1-7f8p.onrender.com"
   },
   {
-    title: 'SigmaGPT — Full-Stack AI Chat Application',
+    title: 'BuddyAI — Full-Stack AI Chat Application',
     description: 'A secure ChatGPT-like web application powered by the Google Gemini API with user authentication and protected backend routes.',
     highlights: ['Gemini API integration', 'Secure user accounts', 'Password hashing', 'RESTful Express APIs'],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Gemini API', 'bcrypt'],
-    github: 'https://github.com/akish99/Sigma-GPT.git',
-    image: '/assets/images/sigmagpt.png',
+    github: 'https://github.com/akish99/BuddyAI.git',
+    image: '/assets/images/buddyaii.png',
+    liveLink: "https://buddyaii-1-fgbh.onrender.com"
   },
   {
     title: 'Airbnb-Inspired Rental Platform',
