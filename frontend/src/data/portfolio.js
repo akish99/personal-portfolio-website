@@ -35,7 +35,7 @@ export const projects = [
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Gemini API', 'bcrypt'],
     github: 'https://github.com/akish99/BuddyAI.git',
     image: '/assets/images/buddyaii.png',
-    liveLink: "https://buddyaii-1-fgbh.onrender.com"
+    liveLink: "https://buddyai-1-fgbh.onrender.com"
   },
   {
     title: 'Airbnb-Inspired Rental Platform',
